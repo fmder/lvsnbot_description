@@ -24,6 +24,9 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <run_depend>urdf</run_depend>
+  <run_depend>xacro</run_depend>
+
   <!-- The export tag contains other, unspecified, tags -->
   <export>
     <!-- You can specify that this package is a metapackage here: -->
