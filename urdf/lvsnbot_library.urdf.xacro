@@ -5,7 +5,6 @@
 <robot>
   <!-- General -->
   <include filename="$(find turtlebot_description)/urdf/common_properties.urdf.xacro"/>
-  <include filename="$(find lvsnbot_description)/urdf/lvsnbot_properties.urdf.xacro"/>
   <!-- Bases -->
   <include filename="$(find create_description)/urdf/create.urdf.xacro"/>
   <!-- Stacks -->
