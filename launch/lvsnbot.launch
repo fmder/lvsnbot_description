@@ -6,6 +6,7 @@
   <arg name="hokuyo_port" value="$(optenv HOKUYO_PORT ttyACM0)"/> <!-- HOKUYO_PORT set by custom_navigation.sh -->
   <arg name="stacks"     value="$(optenv TURTLEBOT_STACKS circles)"/>  <!-- circles, hexagons -->
   <arg name="3d_sensor"  value="$(optenv TURTLEBOT_3D_SENSOR kinect)"/>  <!-- kinect, asus_xtion_pro -->
+  <arg name="simulation" value="$(optenv TURTLEBOT_SIMULATION false)"/>
   <arg name="urdf_file" default="$(find xacro)/xacro.py '$(find lvsnbot_description)/robots/slim_$(arg base)_$(arg stacks)_$(arg 3d_sensor).urdf.xacro'" />
  
 
