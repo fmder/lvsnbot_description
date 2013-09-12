@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+  The complete turtlebot library of xacros for easy reference
+ -->
+<robot>
+  <!-- General -->
+  <include filename="$(find turtlebot_description)/urdf2/common_properties.urdf.xacro"/>
+  <!-- Bases -->
+  <include filename="$(find lvsnbot_description)/urdf2/bases/create.urdf.xacro"/>
+  <!-- 3D Sensors -->
+  <include filename="$(find lvsnbot_description)/urdf2/sensors/kinect.urdf.xacro"/>
+</robot>
